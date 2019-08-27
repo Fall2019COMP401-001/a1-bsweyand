@@ -43,7 +43,7 @@ public class A1Jedi {
 				int amount = scan.nextInt();
 				String itemName = scan.next();
 				int rowIndex = Arrays.binarySearch(items, itemName);
-				itemsSold[rowIndex][i] = amount;
+				itemsSold[rowIndex][i] += amount;
 			}	
 		}
 		 
