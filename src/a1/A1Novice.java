@@ -33,6 +33,8 @@ public class A1Novice {
 				//add cost of items to total
 				totalPrice += quantity * price;
 			}
+			
+			//compose message with customer name and price of goods bought
 			System.out.println(firstName.charAt(0) + ". " + lastName + ": " + String.format("%.2f", totalPrice));
 		}
 		
