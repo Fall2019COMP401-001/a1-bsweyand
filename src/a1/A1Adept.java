@@ -45,7 +45,6 @@ public class A1Adept {
 				String itemName = scan.next();
 				itemSearch.findInLine(itemName);
 				double price = Double.parseDouble(itemSearch.next());
-				System.out.println(price);
 				balance += price * amount;
 				itemSearch = new Scanner(items);
 			}
